@@ -26,13 +26,13 @@
     "test:debug": "npx --node-arg=--inspect-brk jest -i"
   },
   "dependencies": {
+    "@types/node": "^17.0.35",
+    "@remax/types": "3.0.0",
     "yargs": "^16.0.3"
   },
   "devDependencies": {
-
   },
   "publishConfig": {
     "access": "public"
-  },
-  "gitHead": "14d4b95d916a55e4ecbe5fbda933bbc57018d7df"
+  }
 }

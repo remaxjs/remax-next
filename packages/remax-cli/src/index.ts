@@ -1,17 +1,16 @@
 import yargs from 'yargs';
+import yargs_parser from 'yargs-parser';
 import type { Options } from '@remax/types';
 import { internalBuildApp, buildMiniPlugin } from './build';
 import getConfig from './getConfig';
 import API from './API';
-
-export { buildMiniComponent } from './build';
 
 export default class RemaxCLI {
   options?: Options;
   api?: API;
 
   run(args: any, callback?: yargs.ParseCallback) {
-    const argv: any = require('yargs-parser')(args);
+    const argv: any = yargs_parser(args);
     process.env.REMAX_PLATFORM = argv.t || argv.target || 'ali';
 
     this.options = getConfig();
@@ -83,11 +82,6 @@ export default class RemaxCLI {
         },
         (argv: any) => {
           internalBuildApp({ ...this.options, ...argv }, this.api!);
-          try {
-            require('remax-stats').run({ type: 'remax' });
-          } catch (e) {
-            // ignore
-          }
         }
       )
       .command<any>('mini-plugin', '插件相关命令', y => {
@@ -108,11 +102,6 @@ export default class RemaxCLI {
           },
           (argv: any) => {
             buildMiniPlugin({ ...this.options, ...argv });
-            try {
-              require('remax-stats').run({ type: 'remax' });
-            } catch (e) {
-              // ignore
-            }
           }
         );
       })

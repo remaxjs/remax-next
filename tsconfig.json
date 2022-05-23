@@ -1,5 +1,11 @@
 {
   "files": [],
   "references": [
+    {
+      "path": "./packages/remax-cli"
+    },
+    {
+      "path": "./packages/remax-types"
+    }
   ]
 }

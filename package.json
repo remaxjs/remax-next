@@ -3,7 +3,7 @@
   "private": true,
   "version": "1.0.0",
   "scripts": {
-    "watch": "concurrently \"lerna run build:cjs --parallel -- -w\" \"tsc -b -w\"",
+    "watch": "tsc -b -w",
     "prebuild": "npm run clean:packages",
     "build": "tsc -b && lerna run build:cjs",
     "test": "lerna run --ignore babel-preset-remax --ignore website --ignore e2e-* --stream test",
@@ -42,7 +42,7 @@
     "lerna": "^4.0.0",
     "lint-staged": ">=8",
     "prettier": "^2.0.5",
-    "puppeteer": "~5.4.1",
+    "puppeteer": "^14.1.1",
     "rimraf": "^3.0.2",
     "ts-jest": "^27.0.1",
     "typescript": "^4.1.2"

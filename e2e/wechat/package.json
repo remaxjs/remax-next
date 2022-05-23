@@ -5,8 +5,7 @@
   "description": "miniprogram project",
   "dependencies": {
     "miniprogram-render": "0.0.1",
-    "miniprogram-element": "0.0.1",
-    "html-to-js-loader": "0.0.1"
+    "miniprogram-element": "0.0.1"
   },
   "workspaces": {
     "nohoist": [
