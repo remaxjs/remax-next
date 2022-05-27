@@ -6,6 +6,9 @@
     },
     {
       "path": "./packages/remax-types"
+    },
+    {
+      "path": "./packages/remax-utils"
     }
   ]
 }

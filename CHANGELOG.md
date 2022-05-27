@@ -280,7 +280,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 - **ali:** 修复 Button[style] 不生效的问题 ([2460961](https://github.com/remaxjs/remax/commit/24609614520c55077fa03ce7989e7135f1d9403d))
 - 修复生产环境下未禁用 react-devtools 的问题 ([#1411](https://github.com/remaxjs/remax/issues/1411)) ([a01ccde](https://github.com/remaxjs/remax/commit/a01ccdebfc3d2ecb104f3ecc532e4b60ff2eb0c0)), closes [#1408](https://github.com/remaxjs/remax/issues/1408)
-- **wechat:** 修复未导出 API ([#1403](https://github.com/remaxjs/remax/issues/1403)) ([4b5247f](https://github.com/remaxjs/remax/commit/4b5247f5153527b54c57e8b07f6b5524f3009ab2))
+- **wechat:** 修复未导出 Index ([#1403](https://github.com/remaxjs/remax/issues/1403)) ([4b5247f](https://github.com/remaxjs/remax/commit/4b5247f5153527b54c57e8b07f6b5524f3009ab2))
 
 ### Features
 
@@ -302,13 +302,13 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Bug Fixes
 
-- **wechat:** 修复微信端会包含支付宝 API 的问题 ([9d1f333](https://github.com/remaxjs/remax/commit/9d1f33342b43df734ebed83cb12e30607372a1df)), closes [#1394](https://github.com/remaxjs/remax/issues/1394)
+- **wechat:** 修复微信端会包含支付宝 Index 的问题 ([9d1f333](https://github.com/remaxjs/remax/commit/9d1f33342b43df734ebed83cb12e30607372a1df)), closes [#1394](https://github.com/remaxjs/remax/issues/1394)
 
 ## [2.9.2](https://github.com/remaxjs/remax/compare/v2.9.1...v2.9.2) (2020-11-28)
 
 ### Bug Fixes
 
-- **wechat:** 修复 API 类型 ([087a581](https://github.com/remaxjs/remax/commit/087a5818a34558d8aeccc6b67eef7d486bfc7d96)), closes [#1389](https://github.com/remaxjs/remax/issues/1389)
+- **wechat:** 修复 Index 类型 ([087a581](https://github.com/remaxjs/remax/commit/087a5818a34558d8aeccc6b67eef7d486bfc7d96)), closes [#1389](https://github.com/remaxjs/remax/issues/1389)
 - 修复 React Devtools 失效的问题 ([86360e2](https://github.com/remaxjs/remax/commit/86360e2299172431ea88b51c7b25d2cb811d0b6a)), closes [#1392](https://github.com/remaxjs/remax/issues/1392)
 - 修复 windows 下 @remax/plugin-error-screen 加载失败的问题 ([80d5e41](https://github.com/remaxjs/remax/commit/80d5e418a92cb23049aa7aefd5cc5aaf2aeb8af1)), closes [#1388](https://github.com/remaxjs/remax/issues/1388) [#1390](https://github.com/remaxjs/remax/issues/1390)
 
@@ -561,7 +561,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 - **cli:** 修复 notify 命令不生效的问题 ([#1071](https://github.com/remaxjs/remax/issues/1071)) ([e229c48](https://github.com/remaxjs/remax/commit/e229c48b624deb95c54ced5fad9ce4f61b381663))
 - **toutiao:** 修复 View Input 的 props 类型 ([#1041](https://github.com/remaxjs/remax/issues/1041)) ([f52d7f6](https://github.com/remaxjs/remax/commit/f52d7f616aef90baa52abea42f14e86d66cb233a))
 - **wechat:** 修复更新已删除的节点导致报错的问题 ([#1078](https://github.com/remaxjs/remax/issues/1078)) ([84f45fa](https://github.com/remaxjs/remax/commit/84f45fab73a1fd86326bd52806a465e6c96a00ef)), closes [#1065](https://github.com/remaxjs/remax/issues/1065)
-- **wechat:** 添加 API offKeyboardHeightChange ([#1073](https://github.com/remaxjs/remax/issues/1073)) ([154ecd3](https://github.com/remaxjs/remax/commit/154ecd3946ad864cd96e9da014b6efa4a5850e6f))
+- **wechat:** 添加 Index offKeyboardHeightChange ([#1073](https://github.com/remaxjs/remax/issues/1073)) ([154ecd3](https://github.com/remaxjs/remax/commit/154ecd3946ad864cd96e9da014b6efa4a5850e6f))
 
 ### Features
 
@@ -586,7 +586,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Features
 
-- 新增 Node.js 的构建 API remax/build ([#1040](https://github.com/remaxjs/remax/issues/1040)) ([04f79fb](https://github.com/remaxjs/remax/commit/04f79fb69f2ea131ccf2dca44816f58d03bb64a2))
+- 新增 Node.js 的构建 Index remax/build ([#1040](https://github.com/remaxjs/remax/issues/1040)) ([04f79fb](https://github.com/remaxjs/remax/commit/04f79fb69f2ea131ccf2dca44816f58d03bb64a2))
 - **cli:** 新增 -a 参数用于分析构建后的包依赖 ([#1014](https://github.com/remaxjs/remax/issues/1014)) ([97759d1](https://github.com/remaxjs/remax/commit/97759d1b107e7e7be392b5a703fe329f97cf4081)), closes [#958](https://github.com/remaxjs/remax/issues/958)
 
 # [2.3.0](https://github.com/remaxjs/remax/compare/v2.2.0...v2.3.0) (2020-06-04)

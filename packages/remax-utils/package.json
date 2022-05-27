@@ -1,0 +1,21 @@
+{
+  "name": "@remax/utils",
+  "version": "3.0.0",
+  "description": "Remax Types",
+  "author": "sydeEvans <evan.wangjue@qq.com>",
+  "license": "MIT",
+  "main": "lib/index.js",
+  "module": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "clean": "rimraf lib tsconfig.tsbuildinfo",
+    "prebuild": "npm run clean",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "winston": "^3.7.2"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
