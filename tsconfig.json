@@ -9,6 +9,9 @@
     },
     {
       "path": "./packages/remax-utils"
+    },
+    {
+      "path": "./packages/remax-core"
     }
   ]
 }
